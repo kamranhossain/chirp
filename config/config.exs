@@ -16,7 +16,7 @@ config :chirp, ChirpWeb.Endpoint,
   secret_key_base: "Bh7i10IPAKa1t7aWPcJZEmuHTgfGiC8YZnDl8VpAriq2tLjC21jbjIM9eorLtc+f",
   render_errors: [view: ChirpWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: Chirp.PubSub,
-  live_view: [signing_salt: "bEnkEV/5"]
+  live_view: [signing_salt: System.get_env("SIGNING_SALT") || "bEnkEV/5"]
 
 # Configures Elixir's Logger
 config :logger, :console,

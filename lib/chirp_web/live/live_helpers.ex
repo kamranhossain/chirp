@@ -1,4 +1,6 @@
 defmodule ChirpWeb.LiveHelpers do
+  @moduledoc false
+
   import Phoenix.LiveView.Helpers
 
   @doc """

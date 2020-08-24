@@ -1,5 +1,21 @@
 # Chirp
 
+Build a real-time Twitter clone in 15 minutes with LiveView and Phoenix 1.5 with Chris McCord
+
+## Pre-Requisition
+
+Need following thing to install in Computer
+
+- Installed [Elixir 1.10.4](https://elixir-lang.org/install.html)
+- Installed [Erlang OTP 23 or more](https://elixir-lang.org/install.html). You will find the description of installing Erlang in Elixir Installation
+- Installed [Phoenix Framework 1.5.3](https://hexdocs.pm/phoenix/installation.html)
+- Installed [PostgreSQL](https://www.postgresql.org/download/)
+- Installed [Node.js](https://nodejs.org/en/download/)
+- Installed [inotify-tools (for linux users)](https://github.com/inotify-tools/inotify-tools/wiki)
+- If any of package download or install won't match with your destro. Search online for better way.
+
+## Run Phoenix Server
+
 To start your Phoenix server:
 
 - Install dependencies with `mix deps.get`
@@ -8,7 +24,6 @@ To start your Phoenix server:
 - Start Phoenix endpoint with `mix phx.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-Goto [`localhost:4000/posts`](http://localhost:4000/posts) and add post, edit post, like post, retweet post, delete post.
 
 Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
 

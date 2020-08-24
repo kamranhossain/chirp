@@ -1,4 +1,8 @@
 defmodule ChirpWeb.PostLive.PostComponent do
+  @moduledoc """
+  PostComponent module
+  """
+
   use ChirpWeb, :live_component
 
   def render(assigns) do

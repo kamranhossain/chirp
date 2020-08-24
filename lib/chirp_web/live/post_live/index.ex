@@ -1,4 +1,8 @@
 defmodule ChirpWeb.PostLive.Index do
+  @moduledoc """
+  Index module
+  """
+
   use ChirpWeb, :live_view
 
   alias Chirp.Timeline
