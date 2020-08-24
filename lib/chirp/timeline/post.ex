@@ -1,4 +1,8 @@
 defmodule Chirp.Timeline.Post do
+  @moduledoc """
+  PostSchema module
+  """
+
   use Ecto.Schema
   import Ecto.Changeset
 

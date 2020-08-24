@@ -1,4 +1,8 @@
 defmodule ChirpWeb.PostLive.FormComponent do
+  @moduledoc """
+  FormComponent module
+  """
+
   use ChirpWeb, :live_component
 
   alias Chirp.Timeline

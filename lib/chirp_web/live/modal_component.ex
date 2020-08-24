@@ -1,4 +1,6 @@
 defmodule ChirpWeb.ModalComponent do
+  @moduledoc false
+
   use ChirpWeb, :live_component
 
   @impl true

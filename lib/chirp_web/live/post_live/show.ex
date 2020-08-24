@@ -1,4 +1,7 @@
 defmodule ChirpWeb.PostLive.Show do
+  @moduledoc """
+  Show module
+  """
   use ChirpWeb, :live_view
 
   alias Chirp.Timeline

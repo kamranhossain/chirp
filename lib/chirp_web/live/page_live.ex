@@ -1,4 +1,8 @@
 defmodule ChirpWeb.PageLive do
+  @moduledoc """
+  PostLive module
+  """
+
   use ChirpWeb, :live_view
 
   @impl true
